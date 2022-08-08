@@ -1,16 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Deploy to Vercel
+In this guide, you will learn how to deploy your TezJs Site to Vercel Hosting.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Deployed Url:
+https://tezjs-deploy-vercel.vercel.app/
 
-## Recommended IDE Setup
+## Preparing for deployment:
+Run the following command to create tezjs project:
+  - `npm create tez@latest`
+  - `cd [projectName]`
+  - `npm install` - for installing the required dependencies
+  - `npm run build` - for build the project
+  - `npm run dev` - for run the project
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Pre-requisites:
+  - Need a vercel account.
+  - To deploy your Tezjs project, make sure it has been pushed to a Git repository.
 
-## Type Support For `.vue` Imports in TS
+## Deploying your Tezjs project to Vercel:
+  Go to Vercel dashboard for creating project: https://vercel.com/
+1. Create a new project in Vercel.
+2. Import your git repository while creating that project.
+3. Give the root directory and Framework name.
+4. You can deploy a TezJs project, with the following Deploy Button:
+![image](https://user-images.githubusercontent.com/78401922/183408190-46829e89-ae6d-41fc-ac25-9366257908e3.png)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+## References:
+- [Vercel Docs](https://vercel.com/docs)
+- [Vercel Deployment](https://vercel.com/guides/deploying-vuejs-to-vercel)
