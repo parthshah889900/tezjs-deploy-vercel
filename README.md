@@ -22,6 +22,7 @@ Run the following command to create tezjs project:
 2. Import your git repository while creating that project.
 3. Give the root directory and Framework name.
 4. You can deploy a TezJs project, with the following Deploy Button:
+
 ![image](https://user-images.githubusercontent.com/78401922/183408190-46829e89-ae6d-41fc-ac25-9366257908e3.png)
 
 
